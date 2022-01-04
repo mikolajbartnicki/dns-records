@@ -1,0 +1,23 @@
+lokpik.org 3600 IN SOA ns.hostpoint.ch hostmaster.hostpoint.ch 1641071494 86400 7200 3628800 3600
+lokpik.org 3600 IN NS ns.hostpoint.ch
+lokpik.org 3600 IN NS ns2.hostpoint.ch
+lokpik.org 3600 IN NS ns3.hostpoint.ch
+lokpik.org 300 IN MX 10 mail.protonmail.ch
+lokpik.org 300 IN MX 20 mailsec.protonmail.ch
+*.lokpik.org 300 IN MX 10 mail.protonmail.ch
+protonmail._domainkey.lokpik.org 300 IN CNAME protonmail.domainkey.dvep5wcn5tzueetc3fmhsfnprrjag276gc5xrr7jtf26pwtzus6ua.domains.proton.ch.
+protonmail2._domainkey.lokpik.org 300 IN CNAME protonmail2.domainkey.dvep5wcn5tzueetc3fmhsfnprrjag276gc5xrr7jtf26pwtzus6ua.domains.proton.ch.
+protonmail3._domainkey.lokpik.org 300 IN CNAME protonmail3.domainkey.dvep5wcn5tzueetc3fmhsfnprrjag276gc5xrr7jtf26pwtzus6ua.domains.proton.ch.
+www.lokpik.org 300 IN CNAME lokpik.org
+lokpik.org 300 IN A 185.199.110.153
+lokpik.org 300 IN A 185.199.111.153
+lokpik.org 300 IN A 185.199.108.153
+lokpik.org 300 IN A 185.199.109.153
+_dmarc.lokpik.org 300 IN TXT "v=DMARC1; p=none"
+_github-pages-challenge-mikolajbartnicki.lokpik.org 300 IN TXT "d2a366bb539da66d861ad10dc3e68e"
+lokpik.org 300 IN AAAA 2606:50c0:8001::153
+lokpik.org 300 IN AAAA 2606:50c0:8000::153
+lokpik.org 300 IN AAAA 2606:50c0:8003::153
+lokpik.org 300 IN AAAA 2606:50c0:8002::153
+lokpik.org 300 IN TXT "protonmail-verification=1e9d44bea3e3c511d7d42a473db48c91c96cb983"
+lokpik.org 300 IN TXT "v=spf1 include:_spf.protonmail.ch mx ~all"

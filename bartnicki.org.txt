@@ -1,0 +1,23 @@
+bartnicki.org 3600 IN SOA ns.hostpoint.ch hostmaster.hostpoint.ch 1641071240 86400 7200 3628800 3600
+bartnicki.org 3600 IN NS ns.hostpoint.ch
+bartnicki.org 3600 IN NS ns2.hostpoint.ch
+bartnicki.org 3600 IN NS ns3.hostpoint.ch
+bartnicki.org 300 IN MX 10 mail.protonmail.ch
+bartnicki.org 300 IN MX 20 mailsec.protonmail.ch
+*.bartnicki.org 300 IN MX 10 mail.protonmail.ch
+protonmail._domainkey.bartnicki.org 300 IN CNAME protonmail.domainkey.dowbw2cl4xxqjbo6wsyx3zh22qf2shd2lpghamnar22a6tbtmf7dq.domains.proton.ch.
+protonmail2._domainkey.bartnicki.org 300 IN CNAME protonmail2.domainkey.dowbw2cl4xxqjbo6wsyx3zh22qf2shd2lpghamnar22a6tbtmf7dq.domains.proton.ch.
+protonmail3._domainkey.bartnicki.org 300 IN CNAME protonmail3.domainkey.dowbw2cl4xxqjbo6wsyx3zh22qf2shd2lpghamnar22a6tbtmf7dq.domains.proton.ch.
+www.bartnicki.org 300 IN CNAME bartnicki.org
+bartnicki.org 300 IN A 185.199.110.153
+bartnicki.org 300 IN A 185.199.111.153
+bartnicki.org 300 IN A 185.199.108.153
+bartnicki.org 300 IN A 185.199.109.153
+_dmarc.bartnicki.org 300 IN TXT "v=DMARC1; p=none"
+_github-pages-challenge-mikolajbartnicki.bartnicki.org 300 IN TXT "eb063ab27d698c8accf10ca24ab402"
+bartnicki.org 300 IN AAAA 2606:50c0:8001::153
+bartnicki.org 300 IN AAAA 2606:50c0:8000::153
+bartnicki.org 300 IN AAAA 2606:50c0:8003::153
+bartnicki.org 300 IN AAAA 2606:50c0:8002::153
+bartnicki.org 300 IN TXT "protonmail-verification=d9f74cb6aeff800c099d05a7011d4a81ddca4db3"
+bartnicki.org 300 IN TXT "v=spf1 include:_spf.protonmail.ch mx ~all"

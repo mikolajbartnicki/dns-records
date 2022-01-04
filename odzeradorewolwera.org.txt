@@ -1,0 +1,23 @@
+odzeradorewolwera.org 3600 IN SOA ns.hostpoint.ch hostmaster.hostpoint.ch 1641071756 86400 7200 3628800 3600
+odzeradorewolwera.org 3600 IN NS ns2.hostpoint.ch
+odzeradorewolwera.org 3600 IN NS ns.hostpoint.ch
+odzeradorewolwera.org 3600 IN NS ns3.hostpoint.ch
+odzeradorewolwera.org 300 IN MX 10 mail.protonmail.ch
+odzeradorewolwera.org 300 IN MX 20 mailsec.protonmail.ch
+*.odzeradorewolwera.org 300 IN MX 10 mail.protonmail.ch
+protonmail._domainkey.odzeradorewolwera.org 300 IN CNAME protonmail.domainkey.dctb3pgd7adgepkrwsridmkvmvxdpnumcs5wninurfj4lb2eymcfq.domains.proton.ch.
+protonmail2._domainkey.odzeradorewolwera.org 300 IN CNAME protonmail2.domainkey.dctb3pgd7adgepkrwsridmkvmvxdpnumcs5wninurfj4lb2eymcfq.domains.proton.ch.
+protonmail3._domainkey.odzeradorewolwera.org 300 IN CNAME protonmail3.domainkey.dctb3pgd7adgepkrwsridmkvmvxdpnumcs5wninurfj4lb2eymcfq.domains.proton.ch.
+www.odzeradorewolwera.org 300 IN CNAME odzeradorewolwera.org
+odzeradorewolwera.org 300 IN A 185.199.110.153
+odzeradorewolwera.org 300 IN A 185.199.111.153
+odzeradorewolwera.org 300 IN A 185.199.108.153
+odzeradorewolwera.org 300 IN A 185.199.109.153
+_dmarc.odzeradorewolwera.org 300 IN TXT "v=DMARC1; p=none"
+_github-pages-challenge-mikolajbartnicki.odzeradorewolwera.org 300 IN TXT "331c75fe266bbb9dad533ea5ef37e4"
+odzeradorewolwera.org 300 IN AAAA 2606:50c0:8001::153
+odzeradorewolwera.org 300 IN AAAA 2606:50c0:8000::153
+odzeradorewolwera.org 300 IN AAAA 2606:50c0:8003::153
+odzeradorewolwera.org 300 IN AAAA 2606:50c0:8002::153
+odzeradorewolwera.org 300 IN TXT "protonmail-verification=dc3fb21f0767f568a320218a56fa73441351cf9b"
+odzeradorewolwera.org 300 IN TXT "v=spf1 include:_spf.protonmail.ch mx ~all"
